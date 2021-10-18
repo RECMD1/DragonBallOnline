@@ -1,4 +1,4 @@
-
+-- Made by glee
 getgenv().Hitting = false
 getgenv().Hit = 0
 game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
