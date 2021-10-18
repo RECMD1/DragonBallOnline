@@ -1,0 +1,67 @@
+
+getgenv().Hitting = false
+getgenv().Hit = 0
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
+ if KeyPressed == "n" then
+if getgenv().Hitting == false and  getgenv().Hit == 0 then
+
+getgenv().Hitting = true
+getgenv().Hit = getgenv().Hit + 1
+print("Q")
+keypress(0x51)
+keyrelease(0x51)
+print("Q")
+wait(0.2)
+keypress(0x51)
+keyrelease(0x51)
+print("Q")
+wait(0.2)
+keypress(0x51)
+keyrelease(0x51)
+print("Q")
+wait(0.2)
+keypress(0x51)
+keyrelease(0x51)
+print("Q")
+wait(0.2)
+keypress(0x45)
+keyrelease(0x45)
+print("E")
+
+getgenv().Hit = getgenv().Hit - 1
+getgenv().Hitting = false
+  wait(0.5)
+end
+end
+end)
+
+getgenv().Hitting = false
+getgenv().Hit = 0
+game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(KeyPressed)
+ if KeyPressed == "b" then
+if getgenv().Hitting == false and  getgenv().Hit == 0 then
+
+getgenv().Hitting = true
+getgenv().Hit = getgenv().Hit + 1
+print("running")
+keypress(0x51)
+keyrelease(0x51)
+print("Q")
+wait(0.2)
+keypress(0x51)
+keyrelease(0x51)
+print("Q")
+wait(0.2)
+keypress(0x51)
+keyrelease(0x51)
+print("Q")
+wait(0.2)
+keypress(0x45)
+keyrelease(0x45)
+print("E")
+getgenv().Hit = getgenv().Hit - 1
+getgenv().Hitting = false
+  wait(0.5)
+end
+end
+end)
